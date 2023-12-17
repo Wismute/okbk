@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav a {
+	@apply font-mono hover:text-neutral-300 transition duration-300;
+}
+
+h1, h2, h3, h4 {
+	@apply font-headings font-bold text-3xl mb-6;
+}
+
+p {
+	@apply font-body text-justify;
+}
+
+body div {
+    @apply mx-auto 
+}
+
+.gradient {
+	@apply text-transparent bg-gradient-to-br from-yellow-400 to-red-600 bg-clip-text;
+}
+
+.card {
+	@apply p-2 rounded-md bg-neutral-200
+	hover:bg-neutral-300
+	hover:shadow-xl duration-500;
+}
+
+.big-shadow {
+    filter: drop-shadow(0px 9px 20px #2727278f);
+}
+
+.button {
+    @apply text-center text-xl font-bold mx-auto w-[90vw] max-w-[100%] p-4 m-4
+    accent rounded-lg;
+}
+
+.button_small {
+    @apply text-center font-bold mx-auto w-[90vw] max-w-[100%] p-3
+    accent rounded-lg
+}
+
+.accent {
+    @apply bg-yellow-400;
+}
+
+.accent_2 {
+    @apply bg-gray-200;
+}
+
+.accent_3 {
+    @apply bg-green-600;
+}
