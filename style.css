@@ -10,7 +10,7 @@ h1, h2, h3, h4 {
 	@apply font-headings font-bold text-3xl text-center mt-8 mb-2 p-6;
 }
 
-p {
+p, label, input {
 	@apply font-body;
 }
 
@@ -54,6 +54,10 @@ body div {
 
 .partners div {
     @apply grid grid-cols-2 gap-3 m-auto items-center text-left font-bold
+}
+
+.gallery img {
+    @apply rounded-lg
 }
 
 iframe {
