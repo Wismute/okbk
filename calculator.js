@@ -19,3 +19,9 @@ function calculate() {
 
   document.getElementById('result').innerText = result;
 }
+
+document.getElementById('installmentSlider').addEventListener('input', function () {
+    let price = document.getElementById('price').value;
+    document.getElementById('installment').value = this.value;
+    document.getElementById('downPayment').value = price - this.value;
+});
