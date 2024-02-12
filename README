@@ -1,1 +1,3 @@
-tailwindcss -i style.css -o style_out.css --minify --watch
+# Сайт ОКБК.рф
+
+Mobile First подход, Tailwind CSS, Калькулятор стоимости
